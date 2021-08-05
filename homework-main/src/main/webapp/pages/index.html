@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .thead {
+            border: 3px solid springgreen;
+            background-color: wheat;
+            text-align: center;
+            line-height: 80px;
+            width: 430px;
+            height: 250px;
+            margin: 200px auto;
+        }
+        
+        .txt {
+            font-size: 30px;
+            width: 280px;
+            height: 60px;
+        }
+        
+        input[type="password"] {
+            outline: none;
+            width: 250px;
+            height: 30px;
+        }
+        
+        input[type="text"] {
+            outline: none;
+            width: 250px;
+            height: 30px;
+        }
+        
+        input[type="submit"] {
+            width: 40px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="thead">
+
+        <form action="/check" method="get">
+            班级内序号：<input type="text">
+            <div class="txt">请输入暗号</div>
+            <input type="password" name="str">
+            <input type="submit" value="提交">
+        </form>
+    </div>
+</body>
+
+</html>
